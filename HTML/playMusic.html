@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="../FONT/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../CSS/playMusic/playMusic.css">
+    <script type="text/javascript" src = "../JS/jquery.js"></script>
+    <script type="text/javascript" src = "../JS/bootstrap.min.js"></script>
+    <title>play music</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <!--title-->
+        <div class="row play-music-title">
+            <div class="col-xs-2 fa-2x">
+                <i id="backInPlayMusic" class="fa fa-chevron-left"></i>
+            </div>
+            <div class="col-xs-8 play-music-title-contain fa-2x">
+                <span>HISE.fm</span>
+            </div>
+            <div class="col-xs-2 fa-2x">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+
+    <!--author-->
+        <div class="row play-music-author text-center fa-2x">
+            <span>hise之声/王浩东</span>
+        </div>
+
+    <!--volume-->
+    <div class="row volume">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-2 fa-2x">
+            <i class="fa fa-volume-down"></i>
+        </div>
+        <div class="col-xs-6">
+            <div class="col-xs-12 div-line"></div>
+        </div>
+        <div class="col-xs-2 fa-2x">
+            <i class="fa fa-volume-up"></i>
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
+
+    <!--player-->
+        <div class="row the-music-player text-center">
+            <canvas class="img-circle" id="playCanvas" ></canvas>
+        </div>
+
+    <!--theMusicChoice-->
+    <div class="row the-music-choice">
+       <div class="col-xs-2"></div>
+       <div class="col-xs-2 fa-2x">
+           <i class="fa fa-heart-o"></i>
+       </div>
+       <div class="col-xs-1"></div>
+       <div class="col-xs-3 fa-2x">
+           <i class="fa fa-download"></i>
+       </div>
+       <div class="col-xs-2 fa-2x">
+           <i class="fa fa-commenting-o"></i>
+       </div>
+    </div> 
+    
+    <!--theProgress-->
+    <div class="row the-progress-container">
+        <audio id="playAudio" controls="true" class="the-progress">
+            <source src="../AUDIO/testAudio.mp3">
+        </audio>
+    </div>
+
+    <!--thePlayContrals-->
+    <div class="row the-play-contrals text-center">
+        <div class="col-xs-4 fa-2x">
+            <i class="fa fa-fast-backward"></i>
+        </div>
+        <div class="col-xs-4 fa-2x">
+            <i id="playPlay" class="fa fa-play"></i>
+        </div>
+        <div class="col-xs-4 fa-2x">
+            <i class="fa fa-fast-forward"></i>
+        </div>
+    </div>
+
+
+
+    </div>
+    <script type="text/javascript" src = "../JS/playMusic/playMusic.js"></script>
+</body>

@@ -1,0 +1,90 @@
+.Div{
+    background-color: white;
+    width: 100%;
+    }
+#HeadDiv{
+     background-color: #00CCFF;
+     border-bottom-style:groove;
+     border-top-style: groove;
+}
+.headBtn{
+   margin-left: 10px;
+   margin-top: 5px;
+    margin-bottom: 5px;
+}
+#MyBtn{
+    width: 20%;
+}
+#fmBtn{
+    width: 30%;
+}
+#rankBtn{
+width: 30%;
+}
+.searchLogo{
+    margin: 10px;
+    float: right;
+}
+#secondDiv{
+    border-style:groove;
+   width: 100%;
+}
+#searchBtn{
+    width: 40%;
+    float: right;
+}
+.secondDivBtn{
+    width: 18%;
+    float: left;
+    margin: 2px;
+}
+.Menu{
+    padding: 2px;
+    width: 18%;
+    float: right;
+}
+.btn-circle{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 5%;
+    font-size: 5px;
+    line-height: 1.428571429;
+    border-radius: 30px;
+}
+#fourthDiv{
+    width: 100%:
+   text-align: center;
+  }
+.fourthDivFirBtn{
+ float: left;
+}
+.fourthDivSecondBtn{
+    margin-left: 20%;
+  
+}
+.fourthDivThirdBtn{
+    float: right;
+}
+#fifthDiv{
+    width: 100%:
+   text-align: center;
+  }
+.fifthDivFirstBtn{
+    float: left;
+}
+.fifthDivSecondBtn{
+    margin-left: 20%;
+}
+.fifthDivThirdBtn{
+    float: right;
+}
+.btn-rect{
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 5px;
+    line-height: 1.428571429;
+}

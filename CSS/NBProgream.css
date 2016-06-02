@@ -1,0 +1,45 @@
+.HeadDiv{
+    height: 40px;
+    background-color: lightBlue;
+}
+.titleInNBP{
+    margin-top: 15px;
+}
+.BackBtn{
+    float: left;
+}
+.headImg{
+
+}
+.rightLabel{
+    float: right;
+}
+.TalkDiv{
+    border-style: groove;
+    text-align: center;
+}
+
+.nP-words-f{
+    display: inline-block;
+    height: 20px;
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 10px 5px 10px 0;
+    border-color: rgba(0,0,0,0.0) lightGreen rgba(0,0,0,0.0) rgba(0,0,0,0.0);
+
+
+}
+.nP-words-l{
+    display: inline-block;
+    background-color: lightGreen;
+    height: 60px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.np-words{
+    position: relative;
+    left: -30px;
+}

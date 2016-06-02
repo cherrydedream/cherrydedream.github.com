@@ -1,0 +1,53 @@
+.headDiv{
+    text-align: center;
+    width: 100%;
+    height: 30px;  
+    border-style:groove;
+}
+.searchLogo{
+    float: right;
+}
+.leftLabel{
+    float: left;
+}
+.rightLabel{
+    float: right;
+    margin-right: 50px;
+}
+.secondDiv{
+    text-align: center;
+    border-style: groove;
+}
+.thirdDiv{
+    width: 100%;
+    align-self: center;
+    border-style: groove;
+}
+.thirdVolumedDiv{
+    width: 100%;
+    height: 20px;
+}
+.leftVolume{
+    float: left;
+    margin-left: 20%;
+}
+.rightVolume{
+float: right;
+margin-right: 20%;
+}
+.imgDiv{
+    align-self: center;
+    text-align: center;
+}
+.collectLogo{
+    float: left;
+    margin-left: 15%;
+}
+.downloadLogo{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.commentLogo{
+    float: right;
+    margin-right: 15%;
+}

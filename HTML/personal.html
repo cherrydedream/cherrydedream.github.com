@@ -1,0 +1,72 @@
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content = "width=device-width,initial-scale=1">
+<title>My</title>
+<link href="../CSS/bootstrap.min.css" rel="stylesheet">
+<link href="../CSS/personal.css" rel="stylesheet">
+<link href="../FONT/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="container-fluid">
+ <!--title-->
+    <div class="row title">
+       <div class="col-xs-3 title-contain mineInMain">
+       <a href="personal.html">我的</a> </div>
+       <div class="col-xs-4 title-contain findInMain">
+       <a href="main.html">发现电台</a> </div>
+       <div class="col-xs-4 title-contain rankInMain">
+       <a href="HISERank.html">HISE排行榜</a> </div>
+       <div class="col-xs-1 title-contain searchInMain">
+         <i class="fa fa-search"></i>
+       </div>
+    </div>
+      
+<div class="row " id = "firstDiv">
+<img src="../IMG/PERSONALIMG1.jpg" class="img img-circle">
+<p>已登录/未登录</p>
+    </div>
+<div class="row FourSameDiv" id = "FourSameFirstSectionFirstDiv">
+<img src="../IMG/PERSONALIMG2.png" class="img-circle fourSameImg" >
+    <span class="fourSameDivTitle">我的收藏</span>
+   <span class="firstSmallTitle">非常喜欢这个</span>
+     <i class="fa fa-chevron-right rightLabel"></i>
+    </div>
+<div class="row FourSameDiv FourSameFirstSectionDiv">
+<img src="../IMG/PERSONALIMG5.jpg" class="img-circle fourSameImg">
+    <span class="fourSameDivTitle">最近收听</span>
+   <span class="firstSmallTitle">I love it</span>
+   
+    <i class="fa fa-chevron-right rightLabel"></i>
+    </div>
+<div class="row FourSameDiv">
+<img src="../IMG/PERSONALIMG3.jpg" class="img-circle fourSameImg">
+    <span class="fourSameDivTitle">设置一下</span>
+   <span class="firstSmallTitle">设置</span>
+     
+    <i class="fa fa-chevron-right rightLabel"></i>
+    </div>
+    <div id="suggestion" class="row FourSameDiv">
+<img src="../IMG/PERSONALIMG4.jpg" class="img-circle fourSameImg">
+    <span class="fourSameDivTitle">建议区</span>
+   <span class="firstSmallTitle">提出你的建议</span>
+    
+    <i class="fa fa-chevron-right rightLabel"></i>
+    </div>
+        
+    <div class="row lastInPersonal">
+        <div class="bottomDiv"></div>
+        </div>
+    </div>
+
+<script type="text/javascript" src = "../JS/jquery.js"></script>
+<script type="text/javascript" src = "../JS/bootstrap.min.js"></script>
+<script type="text/javascript">
+    var suggestion=document.getElementById("suggestion");
+    suggestion.onclick=function(){
+        document.location="suggestion.html"
+    }
+</script>
+    </body>
+    </html>

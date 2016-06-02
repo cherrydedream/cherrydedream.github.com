@@ -1,0 +1,62 @@
+.play-music-title{
+	color: lightGray;
+	height: 120px;
+	background:url("../../IMG/light.png");
+}
+.play-music-title-contain{
+ text-align: center;
+}
+.play-music-author{
+	color: white;
+	height: 50px;
+	background-color: gray;
+}
+.text-center{
+	text-align: center;
+}
+.volume{
+	height: 50px;
+	background-color: gray;
+}
+.div-line{
+	display: inline-block;
+	border-bottom-style: solid;
+	border-color: white;
+	height: 25px;
+}
+.the-music-player{
+	background-color:gray;
+	height: 200px;
+}
+#playCanvas{
+	width: 200px;
+	height: 200px;
+
+}
+.the-music-choice{
+	height: 80px;
+	padding-top: 15px;
+	background-color: gray;
+}
+.the-progress-container{
+	position: relative;
+	left: 40px;
+    width: 83%;
+	height: 20px;
+	overflow: hidden;
+}
+.the-progress{
+	position: relative;
+	left: -40px;
+	top: -5px;
+	width: 400px;
+}
+.the-play-contrals{
+	height: 130px;
+	padding-top: 35px;
+	background-color: gray;
+}
+body{
+  background-color: gray;
+}
+

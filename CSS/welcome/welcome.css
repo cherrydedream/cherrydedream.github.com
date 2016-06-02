@@ -1,0 +1,14 @@
+.img{
+	width: 100px;
+	height: 100px;
+}
+.head{
+	text-align: center;
+}
+.welcomeHead{
+	position: relative;
+	top: 100px;
+}
+.welcomeWords{
+	margin-top: 20px;
+}

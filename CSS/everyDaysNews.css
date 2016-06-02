@@ -1,0 +1,58 @@
+.Div{
+    width: 100%;
+}
+.headDiv{
+    height: 40px;
+    font-size: 20px;
+    background-color: lightBlue;
+}
+.naviInNews{
+    position: relative;
+    left: -10px;
+    margin-top: 10px;
+}
+.newsTitle{
+    position: relative;
+    left: -20px;
+}
+.HeadImg{
+    width: 100%;
+    height: 100%;
+    
+}
+.SecondDiv{
+ height: 70px;
+ background-color: gray;
+}
+.newInNews{
+    margin-top: 20px;
+}
+.ThirdLeftDiv{
+float: left;
+width: 49%;
+margin-top: 2px;
+border-style: groove;
+height: 280px;
+}
+.ThirdRightDiv{
+    float: left;
+    width: 49%;
+    height: 280px;
+    margin-top: 2px;
+  border-style: groove;
+}
+.img{
+width: 100%;
+}
+.insertDiv{
+    height: 30px;
+}
+.downLabel{
+    float: left;
+}
+.TextDiv{
+   text-align: center;
+   border-bottom-style: groove;
+    width: 100%;
+    margin: 5px;
+}

@@ -1,0 +1,28 @@
+#titleText{
+    text-align: center;
+}
+.inputClass{
+   text-align: center;
+   width: 100%;
+}
+.passwordsInput{
+    width: 50%;
+    margin: 2px;
+}
+.forgetBtn{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 30%;
+}
+.QQLogin{
+    float: right;
+     margin-right:10%;
+    margin-top: 5%;
+    width: 30%;
+}
+.underLineButton{
+    display: inline-block;
+    width: 50%;
+    background-color: aquamarine;
+}

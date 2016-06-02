@@ -1,0 +1,71 @@
+.BackBtn{
+    float:left;
+    height: 4%;
+}
+.Title{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: -20px;
+    font-family:monospace;
+}
+.HeadDiv{
+    height: 40px;
+    background-color: lightBlue;
+}
+.titleInVoice{
+    margin-top: 15px;
+      font-family: "微软雅黑";
+}
+.FirstDiv{
+    border-bottom-style: groove;
+    margin: 10px;
+      font-family: "微软雅黑";
+}
+.img{
+    width: 100%;
+    margin: 5px;
+}
+.DivTitle{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+.DivSecondTitle{
+    position: relative;
+    top: 20px;
+    right: 100px;
+     font-family: "微软雅黑";
+}
+.DivBottomTitle{
+    position: relative;
+    top: 20px;
+    left: -80px;
+     font-family: "微软雅黑";
+}
+.rightLabel{
+    float: right;
+   margin-right: 5px;
+}
+.pictureInVoice{
+    height: 80px;
+}
+.order{
+  height: 60px;
+
+}
+.singer{
+    height: 30px;
+    padding-top: 10px;
+}
+
+.cVoice{
+  height: 30px;
+  padding-bottom: 20px;
+}
+
+.blank{
+     height: 20px;
+}
+.smallText{
+    font-size: 10px;
+}

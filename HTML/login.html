@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content = "width=device-width,initial-scale=1">
+<title>Hello, World</title>
+
+<link href="../CSS/bootstrap.min.css" rel="stylesheet">
+<link href="../CSS/Login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+    <!--导航栏-->
+   <div class="HeadDiv">
+    <span>登录</span>
+    </div>
+<div id="container">
+    <!--图片的呈现 logo-->
+<img src="../IMG/logo.png" alt="Responsive image" class="img-rounded  center-block">
+
+<form>
+<label for="exampleInputEmail1"></label>
+      <div class="input-group input-group-sm inputClass">
+    <input type="email" id="exampleInputEmail1" class = "passwordsInput" placeholder="请输入账号">
+      </div>
+  <label for="exampleInputPassword1"></label>
+   <div class="input-group input-group-sm inputClass">
+ <input type="password" class = "passwordsInput" id="exampleInputPassword1" placeholder="请输入密码">
+</div>
+</form>
+    <!--登录按钮和游客身份进入的按钮-->
+  
+ <a href = "../HTML/main.html">
+<div class="input-group input-group-sm inputClass">
+<input class="btn btn-warning passwordsInput" type="button" value="登录"></div></a>
+<div class="input-group input-group-sm inputClass" ><!--input class="passwordsInput"  type="button" id = "noPassLogin" value="无密码登录"-->
+  <div class="underLineButton">
+       <a href="main.html"><u>无密码登录</u></a> 
+    </div>
+    
+    </div>
+    
+   <!--忘记密码和QQ登录的两个按钮-->
+  
+    <div class="input-group input-group-sm inputClass"><input class="btn btn-warning forgetBtn" type="button" value="忘记密码">
+<input class="btn btn-default QQLogin" type="button"  value="QQ登录"></div>
+    </div>
+    </div>
+<script type="text/javascript" src = "../JS/jquery.js"></script>
+<script type="text/javascript" src = "../JS/bootstrap.min.js"></script>
+<script type="text/javascript" src="../JS/Login.js"></script>
+</body>
+</html>
