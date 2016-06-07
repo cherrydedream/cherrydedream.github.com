@@ -1,5 +1,5 @@
 body{
-background-color: #C0C0C0;
+ background-color: #F0F0F0;
 }
 .Div{
     background-color: white;
@@ -45,6 +45,7 @@ width: 30%;
      border-bottom-style:groove;
      background-color: white;
     text-align: left;
+    border-width: 1px;
 }
 .twoSameImg{
     margin-top: 20px;
@@ -61,24 +62,70 @@ width: 30%;
     position: relative;
     top: 10px;
     right: 90px;
+    font-size: 12px;
+     margin: 3px;
 }
 .secondSmallTitle{
     position: relative;
     top: 23px;
     right: 150px;
+    font-size: 12px;
+     margin: 3px;
+     padding-top: 3px;
 }
 
 .bottomDiv{
  background: white;
-    height:30px;
+    height:50px;
     border-bottom-style: groove;
+    border-width: 1px;
 }
 .bottomText{
-    margin-left: 10px;
-    margin-top: 20px;
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px;
 }
 .rightLabel{
     margin-right: 5px;
     margin-top: 5px;
     float: right;
+}
+
+
+
+.rank-list{
+    background-color: white;
+    height: 100px;
+}
+.rank-list-title{
+    height: 35px;
+    padding-top: 10px;
+}
+.rank-list-detail-line{
+    height: 20px;
+    padding-top: 0px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.rank-list-detail-second-line{
+    height: 30px;
+    padding-top: 0px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.list-picture-test{
+    background-color: blue;
+}
+.rank-list-picture{
+    padding-top: 10px;
+    height: 90px;
+    display: inline-block;
+    line-height: 90px;
+}
+.list-picture{
+    width: 75px;
+    height: 75px;
+}
+.rank-bottom-blank{
+    height: 30px;
 }
